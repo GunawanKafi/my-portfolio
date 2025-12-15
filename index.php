@@ -46,7 +46,7 @@ include 'includes/header.php';
             <div class="order-1 md:order-2 flex justify-center">
                 <div class="relative w-64 h-64">
                     <div class="absolute inset-0 border-2 border-game-accent rounded-xl transform translate-x-4 translate-y-4"></div>
-                    <img src="" alt="Profile" class="relative w-full h-full object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition duration-500">
+                    <img src="assets/images/profile.png" alt="Profile" class="relative w-full h-full object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition duration-500">
                 </div>
             </div>
         </div>
@@ -71,31 +71,31 @@ include 'includes/header.php';
         // DATA TIMELINE (Edit bagian ini untuk menambah pengalaman)
         $timeline = [
             [
-                "year" => "2025 - Sekarang",
-                "title" => "Freelance Game Developer",
+                "year" => "December 2025 - Now",
+                "title" => "Solo Game Developer",
                 "subtitle" => "Full Time",
-                "desc" => "Mengembangkan '5 Menit Kehidupan' dan menerima komisi pembuatan mekanik game Unity.",
+                "desc" => "Melakukan proses produksi game '5 Menit Kehidupan' dari fase pengembangan menuju peluncuran pasar.",
                 "color" => "border-game-accent" // Warna border (opsional)
             ],
             [
-                "year" => "2024",
-                "title" => "Juara 2 - Hackathon Kampus",
-                "subtitle" => "Achievement Unlocked",
-                "desc" => "Membuat game edukasi 'Math Dungeon' dalam waktu 48 jam menggunakan Godot Engine.",
-                "color" => "border-game-secondary"
-            ],
-            [
-                "year" => "2023",
+                "year" => "June 2025 - November 2025",
                 "title" => "Mulai Belajar Unity & C#",
                 "subtitle" => "Tutorial Hell",
-                "desc" => "Fase awal mempelajari OOP, Physics Engine, dan membuat kloning game Flappy Bird pertama.",
+                "desc" => "Fase awal mempelajari OOP, Physics Engine, dan membuat kloning game Flappy Bird, dan Pong sederhana.",
                 "color" => "border-purple-500"
+            ],
+            [
+                "year" => "July 2025",
+                "title" => "GAMESEED 2025",
+                "subtitle" => "Participant",
+                "desc" => "Membuat game 'The Evil Always Comeback' dalam waktu 10 hari menggunakan RPG Maker MV, namun gagal saat Sesi Matrikulasi.",
+                "color" => "border-game-secondary"
             ],
             [
                 "year" => "2022",
                 "title" => "Kenalan dengan Programming",
                 "subtitle" => "Hello World",
-                "desc" => "Mempelajari logika dasar pemrograman melalui Python dan C++ di perkuliahan.",
+                "desc" => "Mempelajari logika dasar pemrograman melalui Python dan C++ secara otodidak.",
                 "color" => "border-blue-500"
             ]
         ];
