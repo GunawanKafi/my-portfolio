@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function sendToWhatsApp() {
     // 1. Ganti nomor ini dengan nomor WA kamu
     // Gunakan format 628xxx (tanpa tanda + atau spasi)
-    const phoneNumber = "6281234567890";
+    const phoneNumber = "6283116761475";
 
     // 2. Ambil nilai dari form
     const name = document.getElementById("contact-name").value;
